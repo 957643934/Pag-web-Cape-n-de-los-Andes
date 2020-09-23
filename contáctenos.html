@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 	<head>
 		<title>Formulario de contacto</title>
 		<script src="text/bienvenida.js"></script>
@@ -24,14 +24,17 @@
 					</ul>
 				</nav>
 			</header>
-		<form action="enviar.php" method="post">
+		<form method="post">
 			<h2>CONTACTO</h2>
-			<input type="text" name="nombre" placeholder="Nombre"required>
-			<input type="text" name="correo" placeholder="Correo" required>
-			<input type="text" name="telefono" placeholder="Teléfono" required>
-			<textarea name="mensaje" placeholder="Escriba aquí su mensaje" required></textarea>
-			<input type="submit" value="ENVIAR" id="boton">
+			<input type="text" placeholder="name" name="name" required="">
+			<input type="email" placeholder="email" name="email" required="">
+			<input type="text" placeholder="asunto" name="asunto" required="">
+			<textarea placeholder="mensaje" name="msg"></textarea>
+			<input type="submit" value="enviar" id="boton">
 		</form>
+		<?php
+		include("enviar.php");
+		?>
 			<section id="info">
 				<section id="izq-1">
 

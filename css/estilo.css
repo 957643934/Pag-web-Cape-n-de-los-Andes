@@ -176,7 +176,11 @@ max-width: 100%;
 	transition: background 1s, color 1s;
 }
 
+#iconos {
+	width: 100px;
+	height: 100px;
 
+}
 
 #info{
 	width: 900px:
@@ -193,15 +197,7 @@ max-width: 100%;
 	padding: 5px; color: #0174df;
 }
 
-#izq-1{
-	width: 585px;
-	height: auto; overflow: hidden;
-	border: 1px solid #000;
-	float: center;
-	padding: 5px; color: #0174df;
-}
-
-#izq-1{
+#izq-2{
 	width: 885px;
 	height: auto; overflow: hidden;
 	border: 1px solid #000;
